@@ -30,6 +30,7 @@ The following steps were carried out to achieve the final optimized results:
 I performed the following optimizations:
 - **Dataset Augmentation:** Increased the dataset size to provide more training examples for the model.
 - **Hyperparameter Tuning:** Optimized key Random Forest parameters (e.g., `n_estimators`, `max_depth`, `min_samples_split`) using GridSearchCV.
+- **Feature Selection** Used Recursive Feature Elimination (RFE) with cross-validation to keep the most important features.
 
 #### Results After Optimization (Augmented Data):
 - **MAE:** 1555.47
