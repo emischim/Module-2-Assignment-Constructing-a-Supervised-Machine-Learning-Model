@@ -27,7 +27,7 @@ The following steps were carried out to achieve the final optimized results:
 - **Observations:** While performance improved over linear regression, the model was still underperforming due to overfitting and lack of optimization.
 
 ### 3. **Model Optimization**
-We performed the following optimizations:
+I performed the following optimizations:
 - **Dataset Augmentation:** Increased the dataset size to provide more training examples for the model.
 - **Hyperparameter Tuning:** Optimized key Random Forest parameters (e.g., `n_estimators`, `max_depth`, `min_samples_split`) using GridSearchCV.
 
@@ -64,13 +64,6 @@ The table below shows the comparison of results at each stage:
 2. **Hyperparameter Tuning:** Optimized Random Forest parameters for better fit.
 3. **Feature Selection:** Reduced the model complexity by focusing on the top 2 predictive features.
 
----
-
-## Visualizations
-The final scatter plot below shows the alignment of the predictions with the actual values after optimization and feature selection:
-
-- **Blue Dots:** Model predictions.
-- **Red Line:** Perfect prediction line (ideal case).
 
 ---
 
@@ -93,13 +86,5 @@ To further enhance the model:
 ---
 
 ## Project Structure
-- **data/**: Contains the dataset used for training and testing.
-- **scripts/**: Python scripts for data preprocessing, modeling, and optimization.
-- **results/**: Output results, visualizations, and performance metrics.
+- **Jupyter Notebook**: Contains all the python code as well as the visual outputs of the model. The notebook is called `Retail Sales Forecasting.ipynb`
 - **README.md**: Project summary and workflow documentation.
-
----
-
-## Author
-[Your Name]  
-**Date:** [Today's Date]
